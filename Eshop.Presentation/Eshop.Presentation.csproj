@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess.Commands\DataAccess.Commands.csproj" />
+    <ProjectReference Include="..\DataAccess.Queries\DataAccess.Queries.csproj" />
+    <ProjectReference Include="..\Eshop.Domains\Eshop.Domains.csproj" />
+    <ProjectReference Include="..\Eshop.Services\Eshop.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

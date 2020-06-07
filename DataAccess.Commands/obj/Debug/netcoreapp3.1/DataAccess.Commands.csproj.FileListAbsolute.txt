@@ -1,0 +1,15 @@
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\bin\Debug\netcoreapp3.1\DataAccess.Commands.deps.json
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\bin\Debug\netcoreapp3.1\DataAccess.Commands.dll
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\obj\Debug\netcoreapp3.1\DataAccess.Commands.csprojAssemblyReference.cache
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\obj\Debug\netcoreapp3.1\DataAccess.Commands.AssemblyInfoInputs.cache
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\obj\Debug\netcoreapp3.1\DataAccess.Commands.AssemblyInfo.cs
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\obj\Debug\netcoreapp3.1\DataAccess.Commands.csproj.CoreCompileInputs.cache
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\bin\Debug\netcoreapp3.1\DataAccess.Commands.runtimeconfig.json
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\bin\Debug\netcoreapp3.1\DataAccess.Commands.runtimeconfig.dev.json
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\bin\Debug\netcoreapp3.1\DataAccess.Commands.pdb
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\bin\Debug\netcoreapp3.1\Eshop.Domains.dll
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\bin\Debug\netcoreapp3.1\Eshop.Domains.pdb
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\obj\Debug\netcoreapp3.1\DataAccess.Commands.csproj.CopyComplete
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\obj\Debug\netcoreapp3.1\DataAccess.Commands.dll
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\obj\Debug\netcoreapp3.1\DataAccess.Commands.pdb
+C:\Dotin\Eshop\Eshop\DataAccess.Commands\obj\Debug\netcoreapp3.1\DataAccess.Commands.genruntimeconfig.cache

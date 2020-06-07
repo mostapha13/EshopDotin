@@ -1,0 +1,12 @@
+C:\Dotin\Eshop\Eshop\Eshop.Services\bin\Debug\netcoreapp3.1\Eshop.Domains.dll
+C:\Dotin\Eshop\Eshop\Eshop.Services\obj\Debug\netcoreapp3.1\Eshop.Services.csprojAssemblyReference.cache
+C:\Dotin\Eshop\Eshop\Eshop.Services\obj\Debug\netcoreapp3.1\Eshop.Services.AssemblyInfoInputs.cache
+C:\Dotin\Eshop\Eshop\Eshop.Services\obj\Debug\netcoreapp3.1\Eshop.Services.AssemblyInfo.cs
+C:\Dotin\Eshop\Eshop\Eshop.Services\obj\Debug\netcoreapp3.1\Eshop.Services.csproj.CoreCompileInputs.cache
+C:\Dotin\Eshop\Eshop\Eshop.Services\bin\Debug\netcoreapp3.1\Eshop.Services.deps.json
+C:\Dotin\Eshop\Eshop\Eshop.Services\bin\Debug\netcoreapp3.1\Eshop.Services.dll
+C:\Dotin\Eshop\Eshop\Eshop.Services\bin\Debug\netcoreapp3.1\Eshop.Services.pdb
+C:\Dotin\Eshop\Eshop\Eshop.Services\bin\Debug\netcoreapp3.1\Eshop.Domains.pdb
+C:\Dotin\Eshop\Eshop\Eshop.Services\obj\Debug\netcoreapp3.1\Eshop.Services.csproj.CopyComplete
+C:\Dotin\Eshop\Eshop\Eshop.Services\obj\Debug\netcoreapp3.1\Eshop.Services.dll
+C:\Dotin\Eshop\Eshop\Eshop.Services\obj\Debug\netcoreapp3.1\Eshop.Services.pdb

@@ -1,0 +1,15 @@
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\bin\Debug\netcoreapp3.1\DataAccess.Queries.deps.json
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\bin\Debug\netcoreapp3.1\DataAccess.Queries.dll
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\obj\Debug\netcoreapp3.1\DataAccess.Queries.csprojAssemblyReference.cache
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\obj\Debug\netcoreapp3.1\DataAccess.Queries.AssemblyInfoInputs.cache
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\obj\Debug\netcoreapp3.1\DataAccess.Queries.AssemblyInfo.cs
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\obj\Debug\netcoreapp3.1\DataAccess.Queries.csproj.CoreCompileInputs.cache
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\bin\Debug\netcoreapp3.1\DataAccess.Queries.runtimeconfig.json
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\bin\Debug\netcoreapp3.1\DataAccess.Queries.runtimeconfig.dev.json
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\bin\Debug\netcoreapp3.1\DataAccess.Queries.pdb
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\bin\Debug\netcoreapp3.1\Eshop.Domains.dll
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\bin\Debug\netcoreapp3.1\Eshop.Domains.pdb
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\obj\Debug\netcoreapp3.1\DataAccess.Queries.csproj.CopyComplete
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\obj\Debug\netcoreapp3.1\DataAccess.Queries.dll
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\obj\Debug\netcoreapp3.1\DataAccess.Queries.pdb
+C:\Dotin\Eshop\Eshop\DataAccess.Queries\obj\Debug\netcoreapp3.1\DataAccess.Queries.genruntimeconfig.cache
