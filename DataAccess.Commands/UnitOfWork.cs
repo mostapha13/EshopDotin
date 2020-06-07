@@ -2,8 +2,9 @@
 using DataAccess.Commands.Context;
 using DataAccess.Commands.Customers.Repository;
 using Eshop.Domains;
+using Eshop.Domains.Base;
 using Eshop.Domains.Customers.Commands;
-using Eshop.Domains.Customers.Queries;
+using Eshop.Domains.Customers.Repositories;
 using Eshop.Domains.OrderDetails.Commands;
 using Eshop.Domains.OrderDetails.Queries;
 using Eshop.Domains.Orders.Commands;
@@ -30,7 +31,7 @@ namespace DataAccess.Commands
         {
             get
             {
-                if (_customerRepositoryCommand != null)
+                if (_customerRepositoryCommand == null)
                 {
                     _customerRepositoryCommand = new CustomerRepositoryCommand(_db);
                 }

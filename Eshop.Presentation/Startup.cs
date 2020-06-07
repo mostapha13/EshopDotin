@@ -13,14 +13,19 @@ using DataAccess.Queries.OrderDetails.Repository;
 using DataAccess.Queries.Orders.Repository;
 using DataAccess.Queries.Products.Repository;
 using Eshop.Domains;
-using Eshop.Domains.Customers.Commands;
-using Eshop.Domains.Customers.Queries;
+using Eshop.Domains.Base;
+using Eshop.Domains.Customers.Entities;
+using Eshop.Domains.Customers.Repositories;
 using Eshop.Domains.OrderDetails.Commands;
 using Eshop.Domains.OrderDetails.Queries;
 using Eshop.Domains.Orders.Commands;
 using Eshop.Domains.Orders.Queries;
 using Eshop.Domains.Products.Commands;
 using Eshop.Domains.Products.Queries;
+using Eshop.Services.Customers.Validation;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -62,6 +67,7 @@ namespace Eshop.Presentation
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddScoped<ICustomerRepositoryCommand, CustomerRepositoryCommand>();
+
             services.AddScoped<ICustomerRepositoryQuery, CustomerRepositoryQuery>();
 
             services.AddScoped<IProductRepositoryCommand, ProductRepositoryCommand>();
@@ -74,6 +80,25 @@ namespace Eshop.Presentation
             services.AddScoped<IOrderDetailsRepositoryCommand, OrderDetailsRepositoryCommand>();
             services.AddScoped<IOrderDetailRepositoryQuery, OrderDetailRepositoryQuery>();
 
+
+            #endregion
+
+
+            #region MediatR
+
+          
+            services.AddMediatR(typeof(Startup).Assembly);
+
+            #endregion
+
+
+            #region Validation
+
+             services.AddMvc().AddFluentValidation();
+
+             services.AddValidatorsFromAssembly(typeof(Startup).Assembly);
+
+             services.AddTransient<IValidator<Customer>, CustomerValidator>();
 
             #endregion
 

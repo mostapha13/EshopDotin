@@ -14,4 +14,8 @@
     <ProjectReference Include="..\Eshop.Domains\Eshop.Domains.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="OrderDetails\Handler\" />
+  </ItemGroup>
+
 </Project>

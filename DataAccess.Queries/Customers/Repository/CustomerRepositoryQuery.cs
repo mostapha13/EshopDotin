@@ -1,4 +1,6 @@
-﻿using Eshop.Domains.Customers.Queries;
+﻿
+
+using Eshop.Domains.Customers.Repositories;
 
 namespace DataAccess.Queries.Customers.Repository
 {

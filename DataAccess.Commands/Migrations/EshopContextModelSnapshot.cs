@@ -29,17 +29,21 @@ namespace DataAccess.Commands.Migrations
                         .HasColumnType("real");
 
                     b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(250)")
+                        .HasMaxLength(250);
 
                     b.Property<string>("LastName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(250)")
+                        .HasMaxLength(250);
 
                     b.HasKey("Id");
 
                     b.ToTable("Customers");
                 });
 
-            modelBuilder.Entity("Eshop.Domains.OrderDetails.OrderDetail", b =>
+            modelBuilder.Entity("Eshop.Domains.OrderDetails.Entities.OrderDetail", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -67,7 +71,7 @@ namespace DataAccess.Commands.Migrations
                     b.ToTable("OrderDetails");
                 });
 
-            modelBuilder.Entity("Eshop.Domains.Orders.Order", b =>
+            modelBuilder.Entity("Eshop.Domains.Orders.Entities.Order", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -101,16 +105,17 @@ namespace DataAccess.Commands.Migrations
                         .HasColumnType("real");
 
                     b.Property<string>("ProductName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(250)")
+                        .HasMaxLength(250);
 
                     b.HasKey("Id");
 
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("Eshop.Domains.OrderDetails.OrderDetail", b =>
+            modelBuilder.Entity("Eshop.Domains.OrderDetails.Entities.OrderDetail", b =>
                 {
-                    b.HasOne("Eshop.Domains.Orders.Order", "Order")
+                    b.HasOne("Eshop.Domains.Orders.Entities.Order", "Order")
                         .WithMany("OrderDetails")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -123,7 +128,7 @@ namespace DataAccess.Commands.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Eshop.Domains.Orders.Order", b =>
+            modelBuilder.Entity("Eshop.Domains.Orders.Entities.Order", b =>
                 {
                     b.HasOne("Eshop.Domains.Customers.Entities.Customer", "Customer")
                         .WithMany("Orders")

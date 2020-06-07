@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6sbvFgGFxLGc8ypSNZUDj55Vr4hdzf6kUmiBmMrdRcvZFrEpil57nTAc1SQ5bE5P8XFtWGb2nq3vqGFC9lktBw==",
+  "dgSpecHash": "Y2sr0UoZ+BtZ39ZFOGHh/vkPDaT9YpYMrMT+QBC+WAvzrt+VdUMUxuRXul+kN+6zWgXrtYXNG8cQ2vOooO+y5Q==",
   "success": true,
   "projectFilePath": "C:\\Dotin\\Eshop\\Eshop\\DataAccess.Queries\\DataAccess.Queries.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mostapha\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\mostapha\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.0\\mediatr.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\mostapha\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\mostapha\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\mostapha\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

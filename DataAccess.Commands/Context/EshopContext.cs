@@ -11,12 +11,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Commands.Context
 {
-    public class EshopContext:DbContext
+    public class EshopContext : DbContext
     {
 
-        public EshopContext(DbContextOptions<EshopContext> options):base(options)
+        public EshopContext(DbContextOptions<EshopContext> options) : base(options)
         {
-            
+
         }
 
 
@@ -33,26 +33,18 @@ namespace DataAccess.Commands.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-
+            base.OnModelCreating(modelBuilder);
 
 
             #region Configuration
 
-            modelBuilder.ApplyConfiguration(new CustomerConfig());
-            modelBuilder.ApplyConfiguration(new ProductConfig());
-            modelBuilder.ApplyConfiguration(new OrderConfig());
-        //    modelBuilder.ApplyConfiguration(new OrderDetailConfig());
-
-
+            modelBuilder.ApplyConfigurationsFromAssembly(this.GetType().Assembly);
 
             #endregion
 
 
 
 
-
-
-            base.OnModelCreating(modelBuilder);
         }
 
 

@@ -1,8 +1,9 @@
-C:\Dotin\Eshop\Eshop\Eshop.Domains\obj\Debug\netcoreapp3.1\Eshop.Domains.AssemblyInfoInputs.cache
-C:\Dotin\Eshop\Eshop\Eshop.Domains\obj\Debug\netcoreapp3.1\Eshop.Domains.AssemblyInfo.cs
-C:\Dotin\Eshop\Eshop\Eshop.Domains\obj\Debug\netcoreapp3.1\Eshop.Domains.csproj.CoreCompileInputs.cache
 C:\Dotin\Eshop\Eshop\Eshop.Domains\bin\Debug\netcoreapp3.1\Eshop.Domains.deps.json
 C:\Dotin\Eshop\Eshop\Eshop.Domains\bin\Debug\netcoreapp3.1\Eshop.Domains.dll
 C:\Dotin\Eshop\Eshop\Eshop.Domains\bin\Debug\netcoreapp3.1\Eshop.Domains.pdb
+C:\Dotin\Eshop\Eshop\Eshop.Domains\obj\Debug\netcoreapp3.1\Eshop.Domains.AssemblyInfoInputs.cache
+C:\Dotin\Eshop\Eshop\Eshop.Domains\obj\Debug\netcoreapp3.1\Eshop.Domains.AssemblyInfo.cs
+C:\Dotin\Eshop\Eshop\Eshop.Domains\obj\Debug\netcoreapp3.1\Eshop.Domains.csproj.CoreCompileInputs.cache
 C:\Dotin\Eshop\Eshop\Eshop.Domains\obj\Debug\netcoreapp3.1\Eshop.Domains.dll
 C:\Dotin\Eshop\Eshop\Eshop.Domains\obj\Debug\netcoreapp3.1\Eshop.Domains.pdb
+C:\Dotin\Eshop\Eshop\Eshop.Domains\obj\Debug\netcoreapp3.1\Eshop.Domains.csprojAssemblyReference.cache
